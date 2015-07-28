@@ -1,0 +1,43 @@
+{
+  "name": "fetch-functions",
+  "version": "0.1.0",
+  "description": "Fetches a list of specified functions from an object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkochan/fetch-functions.git"
+  },
+  "keywords": [
+    "function",
+    "object",
+    "fetch",
+    "bind",
+    "filter"
+  ],
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "zoltan.kochan@gmail.com",
+    "url": "http://kochan.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zkochan/fetch-functions/issues"
+  },
+  "homepage": "https://github.com/zkochan/fetch-functions#readme",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "dependencies": {
+    "bind-ponyfill": "^0.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
